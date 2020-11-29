@@ -17,7 +17,7 @@ class BitCromosoma(Cromosoma):
     def __str__(self):
         return ''.join([str(i) for i in self.gen])
 
-
+#Esta parte es para hacer pruebas
 if __name__ == '__main__':
     b = BitCromosoma(length=8)
     print(b)
